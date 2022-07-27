@@ -1,3 +1,4 @@
+/*
 package com.example.jdbcexam01;
 
 import java.util.List;
@@ -15,3 +16,4 @@ public class BoardTest2 {
         System.out.println(updateCount);
     }
 }
+*/

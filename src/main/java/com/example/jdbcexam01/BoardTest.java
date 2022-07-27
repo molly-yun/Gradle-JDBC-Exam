@@ -1,3 +1,4 @@
+/*
 package com.example.jdbcexam01;
 
 import java.util.List;
@@ -12,3 +13,4 @@ public class BoardTest {
         }
     }
 }
+*/

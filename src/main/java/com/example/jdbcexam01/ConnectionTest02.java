@@ -1,3 +1,4 @@
+/*
 package com.example.jdbcexam01;
 
 import java.sql.Connection;
@@ -27,3 +28,4 @@ public class ConnectionTest02 {
         }
     }
 }
+*/
