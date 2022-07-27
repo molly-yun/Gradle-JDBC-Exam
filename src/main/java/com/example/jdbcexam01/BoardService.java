@@ -18,7 +18,7 @@ public class BoardService {
 
         try {
             conn = DBUtil.getConnection();
-            boardDao.getBoards(conn, start, size);
+            boards = boardDao.getBoards(conn, start, size);
         } catch (Exception ex) {
             throw new RuntimeException(ex);
         } finally {

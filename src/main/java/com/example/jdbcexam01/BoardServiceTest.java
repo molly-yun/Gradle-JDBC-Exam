@@ -7,12 +7,12 @@ public class BoardServiceTest {
         try {
             BoardService boardService = new BoardService();
 
-            // 목록 조회 -> 안돼ㅠ
-//            List<Board> boards = boardService.getBoards(0, 30);
-//
-//            for (Board board : boards) {
-//                System.out.println(board);
-//            }
+            // 목록 조회
+            List<Board> boards = boardService.getBoards(0, 30);
+
+            for (Board board : boards) {
+                System.out.println(board);
+            }
 
             // 글쓰기
 //            Board board = new Board("둘리", "여름이다", "빙하기 그립다" );
